@@ -13,7 +13,6 @@ public class OurController {
    @ResponseBody
     public String hello() {
         System.out.println("springboot-big hello!!");
-       System.out.println("yicijiuhao");
         return "hello";
 
     }
