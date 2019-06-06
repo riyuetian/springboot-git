@@ -12,8 +12,7 @@ public class OurController {
    @RequestMapping("hello")
    @ResponseBody
     public String hello() {
-        System.out.println("springboot-big hello!!");
-        System.out.println("yicijiuhao");
+        System.out.println("springboot-big hello!!!!!");
         return "hello";
 
     }
